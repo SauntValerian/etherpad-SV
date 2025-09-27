@@ -274,7 +274,7 @@
     "useMonospaceFont": "${PAD_OPTIONS_USE_MONOSPACE_FONT:true}",
     "userName":         "${PAD_OPTIONS_USER_NAME:null}",
     "userColor":        "${PAD_OPTIONS_USER_COLOR:null}",
-    "rtl":              "${PAD_OPTIONS_RTL:null}",
+    "rtl":              "${PAD_OPTIONS_RTL:undefined}",
     "alwaysShowChat":   "${PAD_OPTIONS_ALWAYS_SHOW_CHAT:false}",
     "chatAndUsers":     "${PAD_OPTIONS_CHAT_AND_USERS:false}",
     "lang":             "${PAD_OPTIONS_LANG:null}"

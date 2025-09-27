@@ -259,7 +259,7 @@
   /*
    * The default text of a pad
    */
-  "defaultPadText" : "${DEFAULT_PAD_TEXT:Welcome to Etherpad!\n\nThis pad text is synchronized as you type, so that everyone viewing this page sees the same text. This allows you to collaborate seamlessly on documents!\n\nGet involved with Etherpad at https:\/\/etherpad.org\n}",
+  "defaultPadText" : "${DEFAULT_PAD_TEXT:Start writing. This pad is custom.}",
 
   /*
    * Default Pad behavior.
@@ -271,7 +271,7 @@
     "showControls":     "${PAD_OPTIONS_SHOW_CONTROLS:true}",
     "showChat":         "${PAD_OPTIONS_SHOW_CHAT:true}",
     "showLineNumbers":  "${PAD_OPTIONS_SHOW_LINE_NUMBERS:true}",
-    "useMonospaceFont": "${PAD_OPTIONS_USE_MONOSPACE_FONT:false}",
+    "useMonospaceFont": "${PAD_OPTIONS_USE_MONOSPACE_FONT:true}",
     "userName":         "${PAD_OPTIONS_USER_NAME:null}",
     "userColor":        "${PAD_OPTIONS_USER_COLOR:null}",
     "rtl":              "${PAD_OPTIONS_RTL:false}",
@@ -350,7 +350,7 @@
    * it to null disables Abiword and will only allow plain text and HTML
    * import/exports.
    */
-  "abiword": "${ABIWORD:null}",
+  "abiword": "${ABIWORD:/usr/bin/abiword}",
 
   /*
    * This is the absolute path to the soffice executable.

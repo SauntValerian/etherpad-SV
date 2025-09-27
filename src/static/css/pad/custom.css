@@ -1,4 +1,4 @@
 [data-l10n-id="pad.settings.about"].
 [data-l10n-id="pad.settings.poweredBy"] {
-      display: none;
+      display: none !important;
 }

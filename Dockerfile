@@ -40,7 +40,7 @@ ARG SETTINGS=./settings.json.docker
 #
 # EXAMPLE:
 #   ETHERPAD_PLUGINS="ep_codepad ep_author_neat"
-ARG ETHERPAD_PLUGINS=
+ARG ETHERPAD_PLUGINS="ep_comments_page"
 
 # local plugins to install while building the container. By default no plugins are
 # installed.
@@ -64,7 +64,7 @@ ARG ETHERPAD_GITHUB_PLUGINS=
 #
 # EXAMPLE:
 #   INSTALL_ABIWORD=true
-ARG INSTALL_ABIWORD=
+ARG INSTALL_ABIWORD=true
 
 # Control whether libreoffice will be installed, enabling exports to DOC/PDF/ODT formats.
 # By default, it is not installed.

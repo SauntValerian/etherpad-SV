@@ -198,7 +198,7 @@
   * Allow setting dark mode for the enduser. This is so if the user has preferred dark mode in their browser, Etherpad will respect that.
   * Of course this overrides all the skin variants and the skinName set by the administrator.
   **/
-  "enableDarkMode": "${ENABLE_DARK_MODE:true}",
+  "enableDarkMode": "${ENABLE_DARK_MODE:false}",
 
   /*
    * Node native SSL support
@@ -267,10 +267,10 @@
    * Change them if you want to override.
    */
   "padOptions": {
-    "noColors":         "${PAD_OPTIONS_NO_COLORS:false}",
+    "noColors":         "${PAD_OPTIONS_NO_COLORS:true}",
     "showControls":     "${PAD_OPTIONS_SHOW_CONTROLS:true}",
     "showChat":         "${PAD_OPTIONS_SHOW_CHAT:true}",
-    "showLineNumbers":  "${PAD_OPTIONS_SHOW_LINE_NUMBERS:true}",
+    "showLineNumbers":  "${PAD_OPTIONS_SHOW_LINE_NUMBERS:false}",
     "useMonospaceFont": "${PAD_OPTIONS_USE_MONOSPACE_FONT:true}",
     "userName":         "${PAD_OPTIONS_USER_NAME:null}",
     "userColor":        "${PAD_OPTIONS_USER_COLOR:null}",
@@ -387,7 +387,7 @@
    * The other effect will be that the logs will contain the real client's IP,
    * instead of the reverse proxy's IP.
    */
-  "trustProxy": "${TRUST_PROXY:false}",
+  "trustProxy": "${TRUST_PROXY:true}",
 
   /*
    * Settings controlling the session cookie issued by Etherpad.

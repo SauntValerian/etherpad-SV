@@ -259,7 +259,7 @@
   /*
    * The default text of a pad
    */
-  "defaultPadText" : "${DEFAULT_PAD_TEXT:Start writing. This pad is custom.}",
+  "defaultPadText" : "${DEFAULT_PAD_TEXT:Start writing. This is your workspace.}",
 
   /*
    * Default Pad behavior.

@@ -183,7 +183,7 @@
    * Settings for cleanup of pads
    */
   "cleanup": {
-    "enabled": true,
+    "enabled": false,
     "keepRevisions": 5
   },
 
